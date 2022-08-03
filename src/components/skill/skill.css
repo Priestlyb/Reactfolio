@@ -1,0 +1,56 @@
+.skill-txt {
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 0.05em;
+  }
+  .sub {
+    color: #5651e5;
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Roboto Mono', monospace;
+  }
+  
+  .skills-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    min-height: 70vh;
+  }
+
+  .skills {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+  }
+  .skill-item {
+    margin-top: 25px;
+    width: 200px;
+    height: 80px;
+    padding: 15px;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    border-radius: 25px;
+    justify-content: space-around;
+    box-shadow: -15px 15px 30px rgba(0, 0, 0, 0.3) ;
+  }
+  
+  @media (max-width: 850px) {
+    .skill-item {
+      width: 37%;
+      font-size: 13px;
+      flex-direction: column;
+    }
+    .skill-item img {
+      margin-bottom: 5px;
+    }
+  }

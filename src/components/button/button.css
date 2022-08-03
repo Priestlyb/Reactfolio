@@ -1,0 +1,58 @@
+
+.button {
+  max-width: 49%;
+  padding: 5px;
+  margin: 25px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button .social {
+  height: 50px;
+  width: 50px;
+  margin: 0 5px;
+  padding: 10px;
+  border-radius: 50%;
+  backdrop-filter: blur(10px);
+  cursor: pointer;
+  transition: background 0.2s ease;
+  box-shadow: -5px 5px 25px ;
+}
+
+.button .social:hover {
+  background-color: #5651e5;
+  fill: var(--color-pri);
+}
+
+.cv {
+  color: black;
+  background-color: var(--color-sec-light);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 25px;
+  font-family: 'Roboto Mono', monospace;
+  border-radius: 15px;
+  transition: 0.1s ease;
+  box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.3) ;
+}
+.cv:hover {
+  background-color: transparent;
+  border: 2px solid var(--color-sec-light);
+}
+
+@media (max-width: 770px) {
+  .button {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .button {
+    max-width: 100%;
+  }
+  .button .social {
+    height: 40px;
+  }
+}

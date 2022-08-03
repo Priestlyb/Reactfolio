@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: #1f2937
+  ;
+  z-index: 1;
+}
+
+body {
+  background: #ecf0f3;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  animation: move 1s linear infinite forwards;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  background: #ecf0f3;
+  filter: blur(140px);
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 200px;
+  left: 250px;
+  height: 200px;
+  width: 200px;
+  background: #ecf0f3;
+  filter: blur(140px);
+}
+.bg-circle1 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 200px;
+  width: 200px;
+  background: #ecf0f3;
+  filter: blur(150px);
+}
+.bg-circle2 {
+  position: fixed;
+  bottom: 100px;
+  right: 250px;
+  height: 200px;
+  width: 200px;
+  background: #ecf0f3;
+  filter: blur(150px);
+}
+::-webkit-scrollbar {
+  width: 0;
+}
+
+:root {
+  --color-pri: rgb(255, 255, 255);
+  --color-pri-light: rgba(255, 255, 255, 0.993);
+  --color-sec: rgb(255, 255, 255);
+  --color-sec-light: rgb(255, 255, 255);
+
+  --pc-width: 75%;
+  --tab-width: 90%;
+  --phone-width: 100%;
+}
+
+.container {
+  border-radius: 10px;
+  width: var(--pc-width);
+  color: var(--text-pri);
+  padding: 10px 40px;
+  margin: 5px auto;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: var(--phone-width);
+  }
+}

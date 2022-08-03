@@ -1,0 +1,36 @@
+.header-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 5px;
+  transform: translateY(-100px);
+  opacity: 0;
+  backdrop-filter: blur(20px);
+  animation: fade-in 1s ease 1 forwards;
+}
+
+@keyframes fade-in {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.header-container h3 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.header-container h2 {
+  font-size: 15px;
+  font-weight: 500;
+  color: gray;
+  letter-spacing: 1px;
+}
+h3 span {
+  color: #5651e5;
+}

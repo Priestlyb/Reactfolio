@@ -68,7 +68,7 @@ body::after {
   --color-sec: rgb(255, 255, 255);
   --color-sec-light: rgb(255, 255, 255);
 
-  --pc-width: 75%;
+  --pc-width: 80%;
   --tab-width: 90%;
   --phone-width: 100%;
 }
@@ -79,7 +79,6 @@ body::after {
   color: var(--text-pri);
   padding: 10px 40px;
   margin: 5px auto;
-  padding: 10px 40px;
   display: flex;
   justify-content: center;
   align-items: center;

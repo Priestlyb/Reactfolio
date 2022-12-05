@@ -3,10 +3,10 @@ import img1 from '../props/css.png';
 import img2 from '../props/bootstrap.png';
 import img3 from '../props/javascript.png';
 import img4 from '../props/react.png';
-import img5 from '../props/tailwind.png';
+import img5 from '../props/mongo.png';
 import img6 from '../props/figma.png';
-import img7 from '../props/shopify.png';
-import img8 from '../props/netlify.png';
+import img7 from '../props/wordpress.png';
+import img8 from '../props/node.png';
 
 const Skill = () => {
   return (
@@ -37,15 +37,15 @@ const Skill = () => {
         </div>
         <div className="skill-item">
             <img src={img5} alt='' />
-            Tailwind
+            mongo DB
         </div>
         <div className="skill-item">
             <img src={img7} alt='' />
-            Shopify
+            Word Press
         </div>
         <div className="skill-item">
             <img src={img8} alt='' />
-            Netlify
+            node js
         </div>
       </div>
     </div>

@@ -1,20 +1,20 @@
-import "./brickwallengineeringltd.css";
+import "./gregory-university-exit-form.css";
 import { Link, Outlet } from "react-router-dom";
-import bg from "../brickwallengineeringltd/Home.png"
+import bg from "../gregory-university-exit-form/site.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { AiOutlineRollback } from 'react-icons/ai';
 
-const Brickwallengineeringltd = () => {
+const gregoryuniversityexitform = () => {
   return (
     <div className='truth-container'>
       <div className='truth-head'>
         <div className="truth-img">
-          <img src={bg} alt="/" />
+          <img  src={bg} alt="/" />
         </div>
         <div className='bg-shadow' />
         <div className='title'>
-          <h2 className='py-2'>Brickwall Engineering Limited</h2>
-          <h3>Wordpress / Namecheap</h3>
+          <h2 className='py-2'>Gregory University, Uturu!</h2>
+          <h3>Online Exit Form</h3>
         </div>
       </div>
 
@@ -23,12 +23,14 @@ const Brickwallengineeringltd = () => {
           <p classname='desctitle'>Project</p>
           <h2>Overview</h2>
           <p>
-          Brickwall Engineering Limited is on a mission of becoming a dominant provider of specialized engineering services in IT, Structural Engineering, Energy Solutions and Logistics.
+          The Online Exit Form was develop for my final project. It was develop to improve offline system (i.e the paper form) to an Online System, Designed using next-js a React Framework.
           </p>
-          <a href="http://brickwallengineeringltd.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://gregory-university-exit-form.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Demo</button>
           </a>
-          {/* <button className='btn'>Code</button> */}
+          <a href="https://github.com/Priestlyb/next-js_online-exit-form" target="_blank" rel="noopener noreferrer">
+            <button className='btn'>Code</button>
+          </a>
 
           <Link to='/'>
           <p><AiOutlineRollback />Back</p>
@@ -40,16 +42,13 @@ const Brickwallengineeringltd = () => {
             <p className='coltec-tittle'>Technologies</p>
             <div className=''>
               <p className='text'>
-                <RiRadioButtonFill className='pr-1' /> Wordpress
+                <RiRadioButtonFill className='pr-1' /> CSS
               </p>
               <p className='text'>
-                <RiRadioButtonFill className='pr-1' /> Elementor
+                <RiRadioButtonFill className='pr-1' /> React js
               </p>
               <p className="text">
-                <RiRadioButtonFill className='pr-1' /> Site Kit by Google
-              </p>
-              <p className='text'>
-                <RiRadioButtonFill className='pr-1' /> Wordfence Security
+                <RiRadioButtonFill className='pr-1' /> Email js
               </p>
             </div>
           </div>
@@ -60,4 +59,4 @@ const Brickwallengineeringltd = () => {
   )
 };
 
-export default Brickwallengineeringltd;
+export default gregoryuniversityexitform;

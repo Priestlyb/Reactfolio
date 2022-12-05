@@ -39,6 +39,7 @@ textarea {
   padding-left: 10px;
   color: #000;
   border: none;
+  resize: vertical;
 }
 
 button {

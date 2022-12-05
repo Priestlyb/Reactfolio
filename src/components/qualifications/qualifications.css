@@ -1,0 +1,73 @@
+.quali-container {
+  width: var(--pc-width);
+  color: var(--text-pri);
+  margin: 5px auto;
+  padding: 10px 40px;
+  display: flex;
+  flex-direction: column;
+}
+.quali-text {
+  color: #5651e5;
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-family: 'Roboto Mono', monospace;
+}
+.quali-text-sub {
+    font-size: 28px;
+    top: 10px;
+  }
+
+  .scroll-div {
+      width: 100%;
+      display: flex;
+      margin: 20px 0;
+      align-items: center;
+  }
+  
+  .cover {
+      position: relative;
+      width: 100%;
+  }
+  
+  .scroll-images {
+      width: 100%;
+      display: flex;
+      grid-gap: 16px;
+      justify-content: left;
+      align-items: center;
+      overflow: auto;
+      position: relative;
+      scroll-behavior: smooth;
+  }
+  
+  .child {
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .child-img {
+      max-width: 250px;
+      border-radius: 10px;
+  }
+
+@media (max-width: 800px) {
+  .quali-container {
+  padding: 25px 10px;
+}
+
+  .quali-text {
+    font-size: 20px;
+    top: 10px;
+  }
+
+  .scroll-div {
+      margin-top: 10px;
+      margin-bottom: 0;
+  }
+  
+  .scroll-images {
+      grid-gap: 10px;
+      justify-content: left;
+  }
+}

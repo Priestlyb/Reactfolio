@@ -10,7 +10,7 @@ function Navbar() {
       <a href="#home">
         <FcHome className="icon active-nav" />
       </a>
-      <a href="#members">
+      <a href="#projects">
         <MdStorage className="icon" />
       </a>
       <a href="#contact">

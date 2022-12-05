@@ -1,6 +1,6 @@
 import React from 'react';
 import "./button.css";
-import img from '../props/myResume.pdf';
+import img from '../props/myResume.docx';
 import { TiSocialYoutube } from "react-icons/ti";
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -30,7 +30,7 @@ function Buttons() {
     <AiOutlineMail className="social" />
   </a> */}
 
-<a href={img} download='Priestly`s Developer Resume'><button className='cv' type='submit'>Developer_Resume</button></a>
+<a href={img} download='Priestly`s Portfolio'><button className='cv' type='submit'>Developer_Resume</button></a>
 
 </div>
 

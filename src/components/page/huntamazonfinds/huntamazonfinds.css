@@ -92,15 +92,15 @@
   }
 
   .title h2, .title h3 {
-    font-size: 16px;
+    font-size: 20px;
   }
   .coltec {
-    font-size: 18px;
+    font-size: 16px;
   }
   .desc {
-    font-size: 18px;
+    font-size: 16px;
   }
   .btn {
-    font-size: 20px;
+    font-size: 16px;
   }
 }

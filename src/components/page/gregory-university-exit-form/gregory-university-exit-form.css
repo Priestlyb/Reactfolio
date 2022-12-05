@@ -33,7 +33,7 @@
 
 .title {
   position: absolute;
-  top: 90px;
+  top: 15%;
   left: 50px;
 }
 
@@ -67,10 +67,6 @@
   font-size: 18px;
 }
 
-Link{
-  background-color: #5651e5;
-}
-
 .coltec {
   padding: 25px;
   margin-left: 50px;
@@ -89,6 +85,10 @@ Link{
 
 @media screen and (max-width: 820px) {
 
+  .title {
+    left: 20px;
+  }
+
   .truth-sub {
     margin: 0;
     margin-top: 250px;
@@ -102,6 +102,10 @@ Link{
 
   .title h2, .title h3 {
     font-size: 20px;
+  }
+
+  .desc {
+    margin-bottom: 50px;
   }
 
   .desc p {

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3a5dbd4a.css",
+    "main.js": "/static/js/main.8bdf8534.js",
+    "static/media/site.png": "/static/media/site.de54ae75ee530112c213.png",
+    "static/media/Adventure.png": "/static/media/Adventure.3b1168b577e745f6d4c9.png",
+    "static/media/Home.png": "/static/media/Home.a199ecfd4f1e654d0854.png",
+    "static/media/getcrackerjack.png": "/static/media/getcrackerjack.c815cf9c6971b259cb52.png",
+    "static/media/up.png": "/static/media/up.be6faf63de959818f1fb.png",
+    "static/media/me.jpg": "/static/media/me.2a17782f4c83ad3d824a.jpg",
+    "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/bootstrap.png": "/static/media/bootstrap.323492a55f3421bf0688.png",
+    "static/media/wordpress.png": "/static/media/wordpress.138fbe33fa1e494f26d8.png",
+    "static/media/myResume.docx": "/static/media/myResume.26950f4f6d02ecd4555a.docx",
+    "static/media/figma.png": "/static/media/figma.28d552c12df0fc1edbe6.png",
+    "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/index.html",
+    "main.3a5dbd4a.css.map": "/static/css/main.3a5dbd4a.css.map",
+    "main.8bdf8534.js.map": "/static/js/main.8bdf8534.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a5dbd4a.css",
+    "static/js/main.8bdf8534.js"
+  ]
+}

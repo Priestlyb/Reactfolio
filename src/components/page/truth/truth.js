@@ -25,12 +25,15 @@ const Truth = () => {
           <p>
           This app was built using React JS and is hosted on Netlify. Travel with safety, accountabilty, flexiblity. Try! Trvth Travel Agency number one best Travelling Agency in the World. Don't Miss!!! 30% Offer for first five Taxi rides.
           </p>
+
+          <div className="acbtn">
           <a href="https://trvth.netlify.app/" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Demo</button>
           </a>
           <a href="https://github.com/Priestlyb/Truth" target="_blank" rel="noopener noreferrer">
           <button className='btn'>Code</button>
           </a>
+          </div>
 
           <Link to='/'>
           <p><AiOutlineRollback />Back</p>

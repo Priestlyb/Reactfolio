@@ -1,6 +1,6 @@
 import "./gregory-university-exit-form.css";
 import { Link, Outlet } from "react-router-dom";
-import bg from "../gregory-university-exit-form/site.png"
+import bg from "./site.png"
 import { RiRadioButtonFill } from 'react-icons/ri';
 import { AiOutlineRollback } from 'react-icons/ai';
 
@@ -25,15 +25,18 @@ const gregoryuniversityexitform = () => {
           <p>
           The Online Exit Form was develop for my final project. It was develop to improve offline system (i.e the paper form) to an Online System, Designed using next-js a React Framework.
           </p>
+
+          <div className="acbtn">
           <a href="https://gregory-university-exit-form.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Demo</button>
           </a>
           <a href="https://github.com/Priestlyb/next-js_online-exit-form" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Code</button>
           </a>
+          </div>
 
           <Link to='/'>
-          <p><AiOutlineRollback />Back</p>
+          <p className="back"><AiOutlineRollback />Back</p>
           </Link>
         </div>
 

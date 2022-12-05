@@ -25,12 +25,15 @@ const huntamazonfinds = () => {
           <p>
           Hunt Amazon Finds is a blog site i designed with React js framwork, stored the data with mongo db with the help of node js and it framework, express js. Find cool amazon gadgets, kictchen tools, home appliances, e.t.c, all from Amazon!
           </p>
+
+          <div className="acbtn">
           <a href="https://huntamazonfinds.netlify.app/" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Demo</button>
           </a>
           <a href="https://github.com/Priestlyb/Hunt-Amazon-Finds" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Code</button>
           </a>
+          </div>
 
           <Link to='/'>
           <p><AiOutlineRollback />Back</p>

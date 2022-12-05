@@ -25,12 +25,15 @@ const huntamazonfinds = () => {
           <p>
           Help a friend of mine to develop the front-end aspect of a link generator project he is working on.
           </p>
+
+          <div className="acbtn">
           <a href="https://up-priestlyb.vercel.app/" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Demo</button>
           </a>
           <a href="https://github.com/Priestlyb/up" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Code</button>
           </a>
+          </div>
 
           <Link to='/'>
           <p><AiOutlineRollback />Back</p>

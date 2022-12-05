@@ -25,12 +25,15 @@ const getcrackerjack = () => {
           <p>
           A front-end task given to me by FLEXISAF, To design a mobile product experience for a target audience of Millennials and GenZ group to access resources and information as participants in a tech-based internship program.
           </p>
+
+          <div className="acbtn">
           <a href="https://getcrackerjack.netlify.app/" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Demo</button>
           </a>
           <a href="https://github.com/Priestlyb/Get-CrackerJack" target="_blank" rel="noopener noreferrer">
             <button className='btn'>Code</button>
           </a>
+          </div>
 
           <Link to='/'>
           <p><AiOutlineRollback />Back</p>

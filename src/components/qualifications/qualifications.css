@@ -48,6 +48,8 @@
   
   .child-img {
       max-width: 250px;
+      aspect-ratio: 1/1;
+      object-fit: contain;
       border-radius: 10px;
   }
 
